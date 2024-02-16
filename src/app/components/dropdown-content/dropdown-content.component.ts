@@ -5,8 +5,10 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './dropdown-content.component.html',
-  styleUrls: ['./dropdown-content.component.css']
+  styles: `
+    .cat-title {
+      font-weight: bold;
+    }
+  `,
 })
-export class DropdownContentComponent {
-
-}
+export class DropdownContentComponent {}
