@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
   styles: `
     .cat-title {
       font-weight: bold;
+      padding-left: 10px;
     }
   `,
 })

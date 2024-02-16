@@ -1,0 +1,9 @@
+.promotion{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
