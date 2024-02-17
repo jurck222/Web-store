@@ -10,6 +10,9 @@ import { Component } from '@angular/core';
       font-weight: bold;
       padding-left: 10px;
     }
+    ul {
+      list-style-type: square;
+    }
   `,
 })
 export class DropdownContentComponent {}

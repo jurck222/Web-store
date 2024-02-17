@@ -11,10 +11,10 @@ import { DropdownContentComponent } from '../dropdown-content/dropdown-content.c
       style="background-color: blueviolet;">
       <div class="row dropdown">
         <div class="col-md-auto menu dropdown">
-          <img
-            src="../assets/menu.png"
-            alt="menu" />
-          Products
+          <span>
+            <i class="fa-solid fa-bars"></i>
+            Products
+          </span>
           <ul
             app-dropdown-content
             class="dropdown-menu dropdown-menu"></ul>
